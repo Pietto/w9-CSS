@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>handy</title>
+		<link rel="stylesheet" href="handy.css" type="text/css">
+	</head>
+
+	<body>
+		<div class="grid-container">
+			<img src="logo.jpg" alt="logo">
+			<ul>
+				<li>home</li>
+				<li>over ons</li>
+				<li>portfolio</li>
+				<li>nieuws</li>
+				<li>contact</li>
+			</ul>
+			<img class="wideimg" src="header.jpg" alt="header">
+			<img class="banner" src="banner-1.jpg" alt="banner">
+			<img class="banner" src="banner-2.jpg" alt="banner">
+			<img class="banner" src="banner-3.jpg" alt="banner">
+
+			<div class="ribbon">
+				<p id="bouwen">wij bouwen oplossingen</p>
+				<p id="werken">die echt werken...</p>
+				<p id="meer">meer weten?</p>
+			</div>
+
+			<img class="wideimg" src="footer.jpg" alt="footer">
+
+			<div class="box1">
+				<img class="icons" src="handshake.png" alt="handshake">
+				<h1>DEALS</h1>
+				<h2>BEKIJK ONZE DEALS</h2>
+			</div>
+			<div class="box2">
+				<img class="icons" src="toolbox-solid.png" alt="toolbox">
+				<h1>DIENSTEN</h1>
+				<h2>BEKIJK ONZE DIENSTEN</h2>
+			</div>
+			<div class="box3">
+				<img class="icons" src="envelope-regular.png" alt="envelope">
+				<h1>CONTACT</h1>
+				<h2>STUUR EEN BERICHT</h2>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	font-family: Archivo,arial black;
+}
+div{
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+ul>li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	color: white;
+	padding-left: 10px;
+}
+ul{
+	background-color: #222931;
+	width: 950px;
+	text-align: left;
+}
+.banner{
+	width:300px;
+	padding-left: 10px;
+	padding-right: 10px
+	padding-bottom: 30px;
+}
+.wideimg{
+	width: 1200px;
+	position: relative;
+	left: -100px;
+	padding-bottom: 30px;
+}
+.icons{
+	width: 80px;
+}
+.ribbon{
+	background-color: #ffe718;
+	margin-top: 30px;
+	margin-bottom: 40px
+}
+#bouwen{
+	position: relative;
+	left: -300px;
+	top: 30px;
+}
+#werken{
+	position: relative;
+	left: -100px;
+	top: 0px;
+}
+#meer{
+	position: relative;
+	left: 300px;
+	top: -40px;
+}
+.box1{
+	background-color: #ffe718;
+	align-content: left;
+	width: 300px;
+	position: relative;
+	left: -300px;
+}
+
+/*
+img[src="img/img-2.png"] {
+*/

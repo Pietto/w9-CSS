@@ -1,210 +1,273 @@
 body{
-	background-color: #f2f2ff;
+    background-color: #f2f2ff;
 }
+
 #puzzle{
-	width: 600px;
-	height: 400px;
-	margin: 40px;
-	border: 4px solid black;
+    width: 600px;
+    height: 400px;
+    margin: 40px;
+    border: 4px solid black;
+    position: absolute;
 }
-img{
-	position: absolute;
+
+img.topleft {
+    position: absolute;
 }
-img[src*="img-2.png"]{
-	left: 103px;
+
+img[src="img/img-2.png"] {
+
+    position: absolute;
+    top: 0;
+    left: 51px;
 }
-img[src*="img-3.png"]{
-	top: 44px;
-	left: 185px;
+
+img[src='img/img-3.png'] {
+    position: absolute;
+    top: 0;
+    left: 133px;
 }
-img[src*="img-4.png"]{
-	top: 44px;
-	left: 242px;
+
+img[src='img/img-4.png'] {
+    position: absolute;
+    top: 0;
+    left: 190px;
 }
-img[src*="img-5.png"]{
-	top: 44px;
-	left: 292px;
+
+img[src='img/img-5.png'] {
+    position: absolute;
+    top: 0;
+    left: 240px;
 }
-img[src*="img-6.png"]{
-	top: 44px;
-	left: 366px;
+
+img[src='img/img-6.png'] {
+    position: absolute;
+    top: 0;
+    left: 314px;
 }
-img[src*="img-7.png"]{
-	top: 44px;
-	left: 430px;
+
+img[src='img/img-7.png'] {
+    position: absolute;
+    top: 0;
+    left: 378px;
 }
-img[src*="img-8.png"]{
-	top: 44px;
-	left: 499px;
+
+img[src='img/img-8.png'] {
+    position: absolute;
+    top: 0;
+    left: 447px;
 }
-img[src*="img-9.png"]{
-	top: 44px;
-	left: 565px;
+
+img[src='img/img-9.png'] {
+    position: absolute;
+    top: 0;
+    left: 513px;
 }
-img[src*="img-10.png"]{
-	top: 44px;
-	left: 616px;
+
+img.topright {
+    position: absolute;
+    top: 0px;
+    left: 564px;
 }
-img[src*="img-11.png"]{
-	top: 96px;
-	left: 52px;
+img[src='img/img-11.png'] {
+    position: absolute;
+    top: 51px;
+    left: 0px;
 }
-img[src*="img-12.png"]{
-	top: 127px;
-	left: 103px;
+img[src='img/img-12.png'] {
+    position: absolute;
+    top: 83px;
+    left: 51px;
 }
-img[src*="img-13.png"]{
-	top: 110px;
-	left: 185px;
+img[src*='img/img-13.png'] {
+    position: absolute;
+    top: 66px;
+    left: 133px;
 }
-img[src*="img-14.png"]{
-	top: 136px;
-	left: 242px;
+img[src='img/img-14.png'] {
+    position: absolute;
+    top: 92px;
+    left: 190px;
 }
-img[src*="img-15.png"]{
-	top:108px;
-	left: 292px;
+img[src='img/img-15.png'] {
+    position: absolute;
+    top: 64px;
+    left: 240px;
 }
-img[src*="img-16.png"]{
-	top: 154px;
-	left: 366px;
+img[src='img/img-16.png'] {
+    position: absolute;
+    top: 110px;
+    left: 314px;
 }
-img[src*="img-17.png"]{
-	top: 170px;
-	left: 430px;
+img[src='img/img-17.png'] {
+    position: absolute;
+    top: 126px;
+    left: 378px;
 }
-img[src*="img-18.png"]{
-	top: 165px;
-	left: 499px;
+img[src='img/img-18.png'] {
+    position: absolute;
+    top: 121px;
+    left: 447px;
 }
-img[src*="img-19.png"]{
-	top: 194px;
-	left: 565px;
+img[src='img/img-19.png'] {
+    position: absolute;
+    top: 150px;
+    left: 513px;
 }
-img[src*="img-20.png"]{
-	top: 173px;
-	left: 616px;
+img[src='img/img-20.png'] {
+    position: absolute;
+    top: 129px;
+    left: 564px;
 }
-img[src*="img-21.png"]{
-	top: 206px;
-	left: 52px;
+img[src='img/img-21.png'] {
+    position: absolute;
+    top: 161px;
+    left: 0;
 }
-img[src*="img-22.png"]{
-	top: 231px;
-	left: 103px;
+img[src*='img/img-22.png'] {
+    position: absolute;
+    top: 187px;
+    left: 51px;
 }
-img[src*="img-23.png"]{
-	top: 242px;
-	left: 185px;
+img[src='img/img-23.png'] {
+    position: absolute;
+    top: 198px;
+    left: 133px;
 }
-img[src*="img-24.png"]{
-	top: 252px;
-	left: 242px;
+img[src='img/img-24.png'] {
+    position: absolute;
+    top: 208px;
+    left: 190px;
 }
-img[src*="img-25.png"]{
-	top: 227px;
-	left: 292px;
+img[src='img/img-25.png'] {
+    position: absolute;
+    top: 183px;
+    left: 240px;
 }
-img[src*="img-26.png"]{
-	top: 244px;
-	left: 366px;
+img[src='img/img-26.png'] {
+    position: absolute;
+    top: 200px;
+    left: 314px;
 }
-img[src*="img-27.png"]{
-	top: 233px;
-	left: 430px;
+img[src='img/img-27.png'] {
+    position: absolute;
+    top: 189px;
+    left: 378px;
 }
-img[src*="img-28.png"]{
-	top: 236px;
-	left: 499px;
+img[src='img/img-28.png'] {
+    position: absolute;
+    top: 192px;
+    left: 447px;
 }
-img[src*="img-29.png"]{
-	top: 243px;
-	left: 565px;
+img[src='img/img-29.png'] {
+    position: absolute;
+    top: 199px;
+    left: 513px;
 }
-img[src*="img-30.png"]{
-	top: 233px;
-	left: 616px;
+img[src='img/img-30.png'] {
+    position: absolute;
+    top: 189px;
+    left: 564px;
 }
-img[src*="img-31.png"]{
-	top: 281px;
-	left: 52px;
+img[src='img/img-31.png'] {
+    position: absolute;
+    top: 236px;
+    left: 0px;
 }
-img[src*="img-32.png"]{
-	top: 281px;
-	left: 128px;	
+img[src='img/img-32.png'] {
+    position: absolute;
+    top: 236px;
+    left: 76px;
 }
-img[src*="img-33.png"]{
-	top: 281px;
-	left: 179px;
+img[src='img/img-33.png'] {
+    position: absolute;
+    top: 236px;
+    left: 127px;
 }
-img[src*="img-34.png"]{
-	top: 281px;
-	left: 234px;
+img[src='img/img-34.png'] {
+    position: absolute;
+    top: 236px;
+    left: 182px;
 }
-img[src*="img-35.png"]{
-	top: 281px;
-	left: 302px;
+img[src='img/img-35.png'] {
+    position: absolute;
+    top: 236px;
+    left: 250px;
 }
-img[src*="img-36.png"]{
-	top: 281px;
-	left: 356px;
+img[src='img/img-36.png'] {
+    position: absolute;
+    top: 236px;
+    left: 304px;
 }
-img[src*="img-37.png"]{
-	top: 281px;
-	left: 417px;
+img[src='img/img-37.png'] {
+    position: absolute;
+    top: 236px;
+    left: 365px;
 }
-img[src*="img-38.png"]{
-	top: 281px;
-	left: 511px;
+img[src='img/img-38.png'] {
+    position: absolute;
+    top: 236px;
+    left: 459px;
 }
-img[src*="img-39.png"]{
-	top: 281px;
-	left: 555px;
+img[src*='img/img-39.png'] {
+    position: absolute;
+    top: 236px;
+    left: 503px;
 }
-img[src*="img-40.png"]{
-	top: 281px;
-	left: 595px;
+img[src='img/img-40.png'] {
+    position: absolute;
+    top: 236px;
+    left: 543px;
 }
-img[src*="img-41.png"]{
-	bottom: 525px;
-	left: 52px;
+img[src='img/img-41.png'] {
+    position: absolute;
+    top: 308px;
+    left: 0px;
 }
-img[src*="img-42.png"]{
-	bottom: 525px;
-	left: 128px;
+img[src='img/img-42.png'] {
+    position: absolute;
+    top: 340px;
+    left: 76px;
 }
-img[src*="img-43.png"]{
-	bottom: 525px;
-	left: 179px;
+img[src='img/img-43.png'] {
+    position: absolute;
+    top: 353px;
+    left: 127px;
 }
-img[src*="img-44.png"]{
-	bottom: 525px;
-	left: 234px;
+img[src='img/img-44.png'] {
+    position: absolute;
+    top: 333px;
+    left: 182px;
 }
-img[src*="img-45.png"]{
-	bottom: 525px;
-	left: 302px;
+img[src='img/img-45.png'] {
+    position: absolute;
+    top: 354px;
+    left: 250px;
 }
-img[src*="img-46.png"]{
-	bottom: 525px;
-	left: 356px;
+img[src='img/img-46.png'] {
+    position: absolute;
+    top: 334px;
+    left: 304px;
 }
-img[src*="img-47.png"]{
-	bottom: 525px;
-	left: 417px;
+img[src='img/img-47.png'] {
+    position: absolute;
+    top: 325px;
+    left: 365px;
 }
-img[src*="img-48.png"]{
-	bottom: 525px;
-	left: 511px;
+img[src='img/img-48.png'] {
+    position: absolute;
+    top: 352px;
+    left: 459px;
 }
-img[src*="img-49.png"]{
-	bottom: 525px;
-	left:555px;
+img[src='img/img-49.png'] {
+    position: absolute;
+    top: 371px;
+    left: 503px;
 }
-img[src*="img-50.png"]{
-	bottom: 525px;
-	left: 595px;
+img[src*='img/img-50.png'] {
+    position: absolute;
+    top: 340px;
+    left: 543px;
 }
 #puzzle:hover{
-	margin-left: 400px;
+    margin-left: 400px;
 }

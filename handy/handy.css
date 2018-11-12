@@ -1,5 +1,125 @@
+body{
+	font-family: Archivo, arial black;
+}
 div{
+	margin: 0 auto;
+	width: 1100px;
 	text-align: center;
-	align-content: center;
+}
+.grid-container{
 	width: 1000px;
+	display: grid;
+	grid-gap: 15px;
+}
+#logo{
+	grid-row: 1;
+	grid-column: 1;
+	position: relative;
+	left: -400px;
+}
+ul>li{
+	display: inline;
+	color: #ffffff;
+	padding-left: 10px;
+}
+ul{
+	background-color: #222931;
+	width: 950px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: left;
+	position: relative;
+	top: -400px;
+	grid-row: 4;
+	grid-column: 1/6
+}
+#header{
+	width: 120%;
+	position: relative;
+	left: -170px;
+	top: 40px;
+	grid-row: 3;
+	grid-column: 1/6
+}
+img[src="banner-1.jpg"]{
+	grid-row: 5;
+	grid-column: 2/3
+	margin-left: 20px;
+	margin-right: 20px;
+}
+img[src="banner-2.jpg"]{
+	grid-row: 5;
+	grid-column: 3/4
+	margin-left: 20px;
+	margin-right: 20px;
+}
+img[src="banner-3.jpg"]{
+	grid-row: 5;
+	grid-column: 4/5
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#ribbon{
+	background-color: #ffe718;
+}
+#oplossingen{
+	position: relative;
+	left: -300px;
+	top: 50px;
+	font-size: 34px;
+	font-weight: 700;
+}
+#werken{
+	position: relative;
+	top: -5px;
+	font-size: 16px;
+	font-weight: 700;
+}
+#weten{
+	position: relative;
+	left: 800px;
+	top: -50px;
+	font-size: 12px;
+	font-weight: 500px;
+	background-color: #ffffff;
+	width: 140px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+#footer{
+	width: 120%;
+	position: relative;
+	left: -170px;
+	top: 40px;
+	grid-row: 4;
+	grid-column: 1/6;
+}
+.bannerblocks{
+	background-color: #ffe718;
+	grid-row: 5;
+	display: grid;
+}
+#bannerblock1{
+	position: relative;
+	width: 300px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#bannerblock2{
+	position: relative;
+	width: 300px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#bannerblock3{
+	position: relative;
+	width: 300px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#handshake{
+	width: 50px;
 }
